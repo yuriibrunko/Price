@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+}
+td{
+    border: 1px solid red;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+tr:nth-child(1){
+    background: rgb(74, 72, 85);
+}
+tr:nth-child(2), tr:nth-child(4){
+    background: rgb(191, 185, 219);
+}
+h6 {
+    color: black;
+}
+.total {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.result{
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    transform: translate(600%, -95%);
+    text-align: center;
+}
